@@ -1,0 +1,1 @@
+nvcc -o cuda_check.exe cuda_check.c --compiler-bindir="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64" --cl-version=2013 -lcuda -lcudart -lcublas -L"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64" -L "C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64" -I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include"

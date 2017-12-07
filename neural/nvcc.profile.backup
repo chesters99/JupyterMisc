@@ -1,0 +1,15 @@
+
+TOP              = $(_HERE_)/..
+
+NVVMIR_LIBRARY_DIR = $(TOP)/nvvm/libdevice
+
+PATH            += $(TOP)/open64/bin;$(TOP)/nvvm/bin;$(_HERE_);$(TOP)/lib;
+
+INCLUDES += "-I/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/include" "-I/Program Files (x86)/Microsoft Visual Studio 12.0/VC/include" "-I/Program Files (x86)/Windows Kits/10/Include/10.0.14393.0/shared" "-I/Program Files (x86)/Windows Kits/10/Include/10.0.14393.0/um" $(_SPACE_)
+
+LIBRARIES        =+ $(_SPACE_) "/LIBPATH:$(TOP)/lib/$(_WIN_PLATFORM_)" "/LIBPATH:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/lib/amd64" "/LIBPATH:/Program Files (x86)/Windows Kits/10/lib/10.0.14393.0/um/x64" "/LIBPATH:/Program Filesr/Anaconda/libs" 
+
+
+CUDAFE_FLAGS    +=
+PTXAS_FLAGS     +=
+

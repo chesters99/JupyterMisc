@@ -1,0 +1,12 @@
+*.txt
+*.csv
+*.db
+*.xlsx
+*.exe
+.prof
+.ipynb_checkpoints/
+data/
+reveal.js/
+.idea/
+.DS_Store
+__pycache__

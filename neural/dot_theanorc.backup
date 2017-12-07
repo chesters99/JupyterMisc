@@ -1,0 +1,14 @@
+[global]
+floatX = float32
+device = gpu 
+
+[nvcc]
+fastmath = True
+flags=--cl-version=2013
+compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64
+
+[lib]
+cnmem = 0.80
+
+[gcc]
+cxxflags = -D_hypot=hypot

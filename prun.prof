@@ -1,0 +1,23 @@
+         280 function calls in 1.044 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.829    0.829    1.044    1.044 <ipython-input-24-1ada111a7d6c>:9(myfunction)
+        5    0.214    0.043    0.214    0.043 <ipython-input-24-1ada111a7d6c>:4(another)
+       23    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+       23    0.000    0.000    0.001    0.000 iostream.py:180(schedule)
+       20    0.000    0.000    0.001    0.000 iostream.py:342(write)
+       10    0.000    0.000    0.001    0.000 {built-in method builtins.print}
+       23    0.000    0.000    0.000    0.000 threading.py:1104(is_alive)
+       23    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       20    0.000    0.000    0.000    0.000 iostream.py:284(_is_master_process)
+       20    0.000    0.000    0.000    0.000 iostream.py:297(_schedule_flush)
+       23    0.000    0.000    0.000    0.000 threading.py:1062(_wait_for_tstate_lock)
+        1    0.000    0.000    1.044    1.044 {built-in method builtins.exec}
+       23    0.000    0.000    0.000    0.000 iostream.py:87(_event_pipe)
+       23    0.000    0.000    0.000    0.000 threading.py:506(is_set)
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       20    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        1    0.000    0.000    1.044    1.044 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
