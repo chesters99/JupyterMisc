@@ -1,5 +1,5 @@
 Miscellaneous Data Science Jupyter Notebooks 
 ====================
-pandas, matplotlib, scikit-learn, etc
+Pandas, Matplotlib, Scikit-learn, PyMC3 etc
 
 
